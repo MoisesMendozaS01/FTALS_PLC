@@ -51,6 +51,6 @@ Muchos paises aceptaron usar esta estandarización mientras que los americanos p
 
     De empresa -> Nacionales -> Internacionales
 
-Para lo planos electricos tenemos dos esquemas diferentes
+Por ejemplo para lo planos electricos tenemos dos esquemas diferentes
     
     Esquema Americano y el esquema europeo Europeo
