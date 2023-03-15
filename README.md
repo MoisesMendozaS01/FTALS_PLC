@@ -1,11 +1,11 @@
 # FTALS_PLC
-###FUNDAMENTALS OF PLC PROGRAMMING
+### FUNDAMENTALS OF PLC PROGRAMMING
 
 
     TIP
-    Los seres humanos tenemos dos formas de aprender Activa y Pasiva.
-    Leer, escuchar y  solo nos permite retener menos de 30 % después de varias semanas
-    Mientras que practicar permite retener hasta el 95%
+    Los seres humanos tenemos dos formas de aprender/retener información, la activa y pasiva.
+    Leer, escuchar y  solo nos permite retener menos del 30% de la información después de varias semanas.
+    Mientras que practicar/explicar/exponer permite retener hasta el 95%.
 
 _______________________________________________
 
@@ -22,7 +22,7 @@ _______________________________________________
     Comprueba tu validez de tus estudios [Registro Profesionistas](https://www.cedulaprofesional.sep.gob.mx/cedula/presidencia/indexAvanzada.action)
 
 
-Este curso forma parte de una Maestria en Automatixación de procesos industriales 27 cursos que son 5 diplomados.
+Este curso forma parte de una Maestria en Automatización de procesos industriales, en total 27 cursos que forman parte de 5 diplomados:
 
     - Habilidades gerenciales
     - Controladores Logicos Programables
@@ -32,23 +32,25 @@ Este curso forma parte de una Maestria en Automatixación de procesos industrial
 
 
 #### Modulo 2 Normalización
+¿Que es la Normalización?
+La normalización podemos entenderla como las normas o estandares definidos. 
 
-Normalización podemos entenderlo como normas o estandares. 
+Por ejemplo usamos la "Normalización de medición" ya estandarizadas en magnitudes como distancia( metro o pulgada) peso (gramo o libra).
 
-Usamos Normalización de medición ya estandarizadas.
+Las normas mas conocidas son el sistema meétrico decimal y el sistema inglés.
 
-Las normas mas conocidas son el sistema metrico decimal y el sistema ingles.
+¿Por que es importante la Normalización?
+Las normas nos permiten mantener seguridad, permitiendo disminuir los errores, fallas, accidentes, intercambialidad y calidad.
 
-Las normas nos permiten mantener seguridad, permitiendo disminuir los errores, fallas y accidentes, intercambialidad y calidad.
+Por ejemplo la ISO "international organization for Standardization" llegó como una alternativa para lograr la compatibilidad de todas las medidas permitiendo que los paises trabajen mutuamente.
 
-ISO international organization for Standardization que llegó lograr la compatibilidad de todas las medidas para permitir que los paises trabajen mutuamente.
+Muchos paises aceptaron usar esta estandarización mientras que los americanos prefirieron crear sus propias normas.
 
-Mientras que los amerecanos usan sus propias normas
+##### Clasificación de Normas
+    Cada empresa puede crear sus propias normas que utilizaran en sus actividades mientras cada una sujeta a la superior.
 
-##### Cladificación de Normas
-    Cada una sujeta a otra
     De empresa -> Nacionales -> Internacionales
 
 Para lo planos electricos tenemos dos esquemas diferentes
     
-    Americano y el Europeo
+    Esquema Americano y el esquema europeo Europeo
