@@ -11,7 +11,7 @@ _______________________________________________
 
     
 
-#### Modulo 1 Introducción
+### Modulo 1 Introducción
 
 
     Notas importantes
@@ -31,22 +31,40 @@ Este curso forma parte de una Maestria en Automatización de procesos industrial
     - Calidad industrial
 
 
-#### Modulo 2 Normalización
+### Modulo 2 Normalización
 ¿Que es la Normalización?
 La normalización podemos entenderla como las normas o estandares definidos. 
 
-Por ejemplo usamos la "Normalización de medición" ya estandarizadas en magnitudes como distancia( metro o pulgada) peso (gramo o libra).
+Las normas nacen con la necesidad de medir, primero necesitamos medir de ahí nace el "Metro" y la pulgada.
 
-Las normas mas conocidas son el sistema meétrico decimal y el sistema inglés.
+En la revolución industrial (1760 - 1840) nacen las primeras normalizaciones con el telegrafo y con las vias del tren.
 
-¿Por que es importante la Normalización?
-Las normas nos permiten mantener seguridad, permitiendo disminuir los errores, fallas, accidentes, intercambialidad y calidad.
+A finales de 1880 se reunen los mas grandes inventores de la epoca formando la ASME "Asociacion americana de ingenieros mecanicos" para compartir ideas y trabajar en equipo.
 
-Por ejemplo la ISO "international organization for Standardization" llegó como una alternativa para lograr la compatibilidad de todas las medidas permitiendo que los paises trabajen mutuamente.
+Entre 1870 a 1910 se registraron al menos 10,000 explociones por calderas, lo que desenboco en una manifestación de trabajadores.
+Por lo que el gobierno de la época le pidio a la ASME que solucionara la situación.
 
-Muchos paises aceptaron usar esta estandarización mientras que los americanos prefirieron crear sus propias normas.
+De ahí nacio la primera norma vigente, la norma de calderas a presión, esto se deben seguir para mantener clas cuestiones de seguridad.
+
+El segundo punto importante en la historia de la normalización sucedio en la primera guerra mundial, debido a que no embonaban las balas de las armas, este punto importante de la normalización para mantener la intecambiabilidad.
+
+Por ello nace la DIN (1917) que a nivel ingeniería generaron normas de tipo general, de tipo tecnico, de materiales, de dimenciones de piezas y mecanismos y en ambitos de aplicación.
+
+También se creo la Institución britanica de estandarización (1919) la Asociación francesa de normalización (1918) y e instituto japonés de estandarización (1921).
+
+Pero esto no nos aseguraba la compatibilidad entre las diferentes normas de los paises.
+
+Después de la segunda guerra mundial se firman varios tratados y entre ellos nace la
+
+    ¿Por que es importante la Normalización?
+    Las normas nos permiten mantener seguridad, permitiendo disminuir los errores, fallas, accidentes, intercambialidad y calidad.
+
+la ISO "international organization for Standardization" en ginebra despues de la segunda guerra mundial(1947) con 3 objetivos calidad, medio ambiente y seguridad, llegó como una alternativa para lograr la compatibilidad de todas las medidas permitiendo que los paises trabajen mutuamente, aliniando a todoslos paises.
+
+Muchos paises aceptaron usar esta estandarización mientras que los americanos prefirieron crear sus propias normas esto por los conflicto internacionales y creó la ANSI "American National Standards Institute" creada a partir de la ASME tomando muchas cosas de ella. 
 
 ##### Clasificación de Normas
+    
     Cada empresa puede crear sus propias normas que utilizaran en sus actividades mientras cada una sujeta a la superior.
 
     De empresa -> Nacionales -> Internacionales
@@ -54,3 +72,17 @@ Muchos paises aceptaron usar esta estandarización mientras que los americanos p
 Por ejemplo para lo planos electricos tenemos dos esquemas diferentes
     
     Esquema Americano y el esquema europeo Europeo
+
+¿Que normas debemos seguir en nuestra empresa?
+
+Si en nuestros procesos es necesario seguir reglas especificas, que por empresa sea necesario crear normas, esto es necesario indudablemente, sin embargo estas deben estar alineadas a las normas ISO.
+
+Por que es necesario aprender el esquema americano, esto debido a que el primer PLC se desarrollo con este sistema, sin embargo podemos encontrar mas circuitos con el esquema europeo.
+
+####Evaluación Módulo 2
+
+    [Modulo 2](/cuestionario/modulo_2.md)
+
+### Modulo 3
+#### Conceptosimportantes de electrónica de potencia
+##### El contactor
