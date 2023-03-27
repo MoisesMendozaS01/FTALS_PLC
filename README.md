@@ -79,10 +79,41 @@ Si en nuestros procesos es necesario seguir reglas especificas, que por empresa 
 
 Por que es necesario aprender el esquema americano, esto debido a que el primer PLC se desarrollo con este sistema, sin embargo podemos encontrar mas circuitos con el esquema europeo.
 
-####Evaluación Módulo 2
+#### Evaluación Módulo 2
 
     [Modulo 2](/cuestionario/modulo_2.md)
 
 ### Modulo 3
-#### Conceptosimportantes de electrónica de potencia
+#### Conceptos importantes de electrónica de potencia
 ##### El contactor
+
+Es un interruptor de accionamiento electromagnético, diseñado para efectuar maniobras de apertura y cierre en circuitos de alto consumo de corriente..
+
+Arranque motores trifasicos, control de hornos, velocidad de motores, etc.
+
+Estos comunmente cuentan con los siguientes borners:
+    
+    Borners de potencia
+        - Contactos principales
+            - Borners 1,3,5 se conectan a la fuente trifasica (verde)
+            - Borners 2,4,6 se conecta un relé térmico y luego el motor (Verde)
+        - Contactos Auxiliares
+            - Contacto normal abierto (morado)
+            - Contacto normal cerrado (amarillo)
+        - Bobina (rojo)
+
+!['Contactores'](./img/Contactores.png)
+
+**Contactor AC3 recomendaco para cargas inductivas como los motores electricos**
+
+##### Principio de funcionamiento
+
+Cuando se energiza la bobina se accionan os contactos, abriendo los contactos cerrados y cerrando los contactos abiertos.
+
+Cuando deja de llegar corriente a la bobina los contactos vuelven a su estado de reposo.
+
+!['Contactores'](./img/principio-funcionamiento.png)
+
+##### Teoría básica de control electrico
+
+
