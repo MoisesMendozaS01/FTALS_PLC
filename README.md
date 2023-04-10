@@ -116,4 +116,110 @@ Cuando deja de llegar corriente a la bobina los contactos vuelven a su estado de
 
 ##### Teoría básica de control electrico
 
+Para la parte de la industria de la automatización es necesario conocer los planos, existen dos esquemas que másnos econtrameron son el esquema Americano y el Esquema Europeo.
+
+!['Esquemas electricos'](./img/esquemas_electricos.png)
+
+Trabajaremos con el esquema americano ya que fue con este con el que se basó la programación PLC.
+
+El PLC surge en estados unidos, GM solicito aun equipo de investigadores que crearan algo para hacer mas eficiente el control de sus equipos, una de las empecificacioes de GM fue que usaran los esquemas que ya conician. Se termino normalizando este esquema.
+
+###### ¿Para que nos son utiles estos diagramas?
+
+Para hacer un sistema de control.
+
+!['Esquemas electricos'](./img/sistema_de_control_diagrama.png/)
+
+El PLC que está en el centro va a realizar la lógica para que en base a nuestras entradas nos otorgue los resultados que busquemos.
+
+    Por ejemplo un termostato, su sensor detecta la temperatura actual y esta entrada puede activar el sistema de enfriamiento.
+
+Lista de elementos electricos mas usados: 
+[Simbologia.pdf](./documentacion/Simbologia.pdf)
+
+Comenzando con el elemento electrico mas utilizado para ver las diferencias entre los diferentes esquemas DIN, ANSI, y el IEC, que son los principales.
+
+    - El esquema ANSI es del sistema Americano.
+
+    - El esquema DIN es del sistema Aleman. Recordemos que este sigue el ISO.
+
+    - El esquema IEC (Comite internacional de electrotecnia) es del sistema Internacional. Es similitud a ISO pero en electricidad.
+
+###### EL BOTON
+
+!['Simbologia de un Boton'](./img/Boton_simbolog%C3%ADa.png)
+
+El botón lo podemos encontrar en dos diferentes tipos, botón normalmente abierto y el botón normalmente cerrado.
+
+###### EL CONTACTO
+
+!['Simbología del contacto'](./img/Simbologia%20del%20Contacto.png)
+
+Tenemos dos definiciones
+
+En la primera el contacto se encuetra normalmente abierto (NA), el circuito se encuentra interrumpido mientras en el segundo el contacto normalmente cerrado (NC) donde si hay contacto.
+
+###### EL RELEVADOR
+
+!['Esquema del relevador'](./img/esquema%20del%20Rrelevador.png)
+
+Un relevador contiene una bobina interna que al aplicarle un voltaje, lo convierte en un campo electromagnetico, esto para mover el inducido de hierro dulce a su vez permitiendo que el contacto que se encontraba abierto se cierre.
+Siendo un interruptor para controlar corrientes mucho mas altas
+
+!['Simbolo del relevador'](./img/Simbolo_del_relevador.png)
+
+###### Reelevadores con retardo a la resconección
+
+!['Relevador con retardo a la desconexión diagrama'](./img/Reelevador%20con%20retardo%20a%20la%20desconexi%C3%B3n.png)
+
+En esta gráfica observamos la tensión en la bobina con respecto al tiempo. En el contacto de nuestra bobina de abre al meterle energía, pero después quitarle la energia retarda para desconectarse.
+
+!['Diagrama de relevador con retardo a la reconexión'](./img/diagrama%20relevador%20con%20retardo%20a%20la%20conexi%C3%B3n.png)
+
+De igual manera al meterle corriente este tarda un tiempo en cerrar el circuito despues de meterle el voltaje.
+
+###### Simbologia de las Bobinas
+
+!['Simbología de las bobinas'](/img/Simbologia%20de%20las%20bobinas.png)
+
+###### Contactores
+
+Su funcionamiento es muy similar a los relevadores pero es mas inductrial.
+
+Existen dos tipod de contactores:
+
+    - Los contactos principales:
+        Entre 4 y 30kW, la conmutación esta a cargo de contactos principales (disyuntores)
+
+    - Contactos auxiliares:
+        Se utilizan para las funciones de control y enlaces lógicos se activan mediante contactos auxiliares.
+
+Su ventaja es que podemos tener varios contactos conectados
+
+!['Los contactores'](./img/Contactores%20(2).png)
+
+###### Diagrama Europeo de Fuerza y Mando
+
+La diferencia entre la fuerza y el mando.
+
+La fuerza es la parte que se encargara de realizar el trabajo, mientras mando va a realizar la logica de control 
+
+
+!['Diagrama Europeo de fuerza y mando'](./img/Diagrama%20europeo%20de%20fuerza%20y%20mando.png)
+
+Vistos de manera mas práctica, esta seria la conexion.
+
+!['Fuerza y mando con dispositivos reales'](./img/Fuerza%20y%20mando%20con%20sus%20equipos.png)
+
+**Diferencias**
+
+| Fuerza | Mando |
+| --- | --- |
+|Alto voltaje y corriente |Poco voltaje y corriente|
+|Corriente alterna|Corriente directa|
+|Actuadores| Sensores|
+|Cableado grueso|Cableado delgado|
+
+##### 2. Lógica de relés
+
 
